@@ -1,0 +1,19 @@
+{
+  "name": "restful-api-mysql",
+  "version": "1.0.0",
+  "description": "RESTful service power most any website today that receives and trasmits data via HTTP or HTTPS protocol. What you'll find below is what's used from express to run a simple set of Create, Read, Update, and Delete (CRUD) methods.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  }
+}
