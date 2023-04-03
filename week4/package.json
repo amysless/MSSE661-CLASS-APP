@@ -1,0 +1,16 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "Have our website talk to the back-end service and perform functions on the database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {}
+}
